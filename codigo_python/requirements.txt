@@ -1,0 +1,14 @@
+# Dependencias del proyecto de madurez de papaya (resonancia acústica + módulo bimodal).
+# Tanda 1 (config, sintético, visualize, features mínimo) solo usa las 3 primeras.
+# librosa / scikit-learn / pandas se usan a partir de la Tanda 2-3.
+
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+librosa>=0.10      # Tanda 2: carga robusta y utilidades de audio
+scikit-learn>=1.3  # Tanda 3: SVM y Random Forest
+pandas>=2.0        # Tanda 3: dataset y CSV de features
+streamlit>=1.40     # Interfaz gráfica (app.py)
+plotly>=5.0        # Gráficos interactivos de la interfaz
+opencv-python>=4.8 # Módulo bimodal: segmentación de la cáscara (vision_color.py)
+pillow>=10.0       # Módulo bimodal: lectura del perfil ICC de las fotos

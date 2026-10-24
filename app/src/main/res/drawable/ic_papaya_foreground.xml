@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícono: media papaya cortada a lo largo, con semillas (dentro de la zona segura de 66dp del ícono adaptativo) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <group android:rotation="-30" android:pivotX="54" android:pivotY="54">
+        <!-- Cáscara -->
+        <path android:fillColor="#8DB43A"
+            android:pathData="M54,24 C64,24 70,33 72,44 C75,60 72,84 54,84 C36,84 33,60 36,44 C38,33 44,24 54,24 Z"/>
+        <!-- Pulpa -->
+        <path android:fillColor="#FB8500"
+            android:pathData="M54,27 C62,27 67,35 69,45 C71,60 69,81 54,81 C39,81 37,60 39,45 C41,35 46,27 54,27 Z"/>
+        <!-- Cavidad -->
+        <path android:fillColor="#FFB703"
+            android:pathData="M54,40 C59,40 62,47 62,57 C62,67 59,74 54,74 C49,74 46,67 46,57 C46,47 49,40 54,40 Z"/>
+        <!-- Semillas -->
+        <path android:fillColor="#2B2118"
+            android:pathData="M51,47 m-2.4,0 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0
+                M57,47 m-2.4,0 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0
+                M50,54 m-2.4,0 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0
+                M56,54 m-2.4,0 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0
+                M51,61 m-2.4,0 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0
+                M57,61 m-2.4,0 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0
+                M54,67.5 m-2.4,0 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0"/>
+    </group>
+</vector>

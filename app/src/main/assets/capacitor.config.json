@@ -1,0 +1,8 @@
+{
+	"appId": "com.tesis.papayamadurez",
+	"appName": "Madurez de papaya",
+	"webDir": "www",
+	"android": {
+		"allowMixedContent": false
+	}
+}

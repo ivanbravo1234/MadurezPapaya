@@ -1,0 +1,7 @@
+// Proyecto autónomo: el módulo de Capacitor está copiado dentro de esta carpeta
+// (originalmente venía de mobile/node_modules/@capacitor/android/capacitor).
+include ':capacitor-android'
+project(':capacitor-android').projectDir = new File('./capacitor-android/')
+include ':app'
+include ':capacitor-cordova-android-plugins'
+project(':capacitor-cordova-android-plugins').projectDir = new File('./capacitor-cordova-android-plugins/')

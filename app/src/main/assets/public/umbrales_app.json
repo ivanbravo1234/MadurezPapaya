@@ -1,0 +1,115 @@
+{
+  "variables": [
+    "L",
+    "a",
+    "b",
+    "frecuencia_hz",
+    "amplitud"
+  ],
+  "clases": [
+    "verde",
+    "pinton",
+    "semi",
+    "maduro",
+    "muy_maduro"
+  ],
+  "centroides": {
+    "verde": {
+      "L": 38.7336,
+      "a": -24.0221,
+      "b": 37.0249,
+      "frecuencia_hz": 244.0982,
+      "amplitud": 0.0005
+    },
+    "pinton": {
+      "L": 51.6392,
+      "a": -24.3591,
+      "b": 54.6426,
+      "frecuencia_hz": 204.9403,
+      "amplitud": 0.0007
+    },
+    "semi": {
+      "L": 51.6931,
+      "a": -17.7625,
+      "b": 55.6906,
+      "frecuencia_hz": 232.0608,
+      "amplitud": 0.0006
+    },
+    "maduro": {
+      "L": 54.5895,
+      "a": -9.2579,
+      "b": 61.6158,
+      "frecuencia_hz": 225.5341,
+      "amplitud": 0.0009
+    },
+    "muy_maduro": {
+      "L": 53.3042,
+      "a": 10.9876,
+      "b": 59.674,
+      "frecuencia_hz": 184.1047,
+      "amplitud": 0.0006
+    }
+  },
+  "sigma": {
+    "L": 4.3718,
+    "a": 4.7275,
+    "b": 5.6309,
+    "frecuencia_hz": 60.0865,
+    "amplitud": 0.0002
+  },
+  "pesos": {
+    "L": 0.1396,
+    "a": 0.6261,
+    "b": 0.1951,
+    "frecuencia_hz": 0.0101,
+    "amplitud": 0.0291
+  },
+  "fisher": {
+    "L": 1.721,
+    "a": 7.719,
+    "b": 2.405,
+    "frecuencia_hz": 0.125,
+    "amplitud": 0.359
+  },
+  "umbrales_a": [
+    {
+      "entre": [
+        "verde",
+        "pinton"
+      ],
+      "a_corte": -24.19
+    },
+    {
+      "entre": [
+        "pinton",
+        "semi"
+      ],
+      "a_corte": -22.53
+    },
+    {
+      "entre": [
+        "semi",
+        "maduro"
+      ],
+      "a_corte": -14.05
+    },
+    {
+      "entre": [
+        "maduro",
+        "muy_maduro"
+      ],
+      "a_corte": 0.18
+    }
+  ],
+  "n_papayas": 10,
+  "indice": {
+    "variable": "a",
+    "intercepto": 7.945,
+    "pendiente": 0.1898,
+    "minimo": 1.0,
+    "maximo": 10.0,
+    "r2": 0.815,
+    "mae_deja_una_fuera": 1.33
+  },
+  "exactitud_deja_una_fuera": 0.7
+}

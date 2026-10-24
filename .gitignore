@@ -1,0 +1,167 @@
+
+# ==========================================
+# MADUREZ PAPAYA
+# Android + Capacitor + Java + Python + Streamlit
+# ==========================================
+
+# ------------------------------------------
+# ANDROID - Archivos compilados
+# ------------------------------------------
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Archivos generados
+bin/
+gen/
+out/
+
+# ------------------------------------------
+# GRADLE
+# ------------------------------------------
+.gradle/
+**/build/
+
+# Mantener los archivos necesarios para compilar:
+# gradlew
+# gradlew.bat
+# gradle/wrapper/
+
+# Configuracion local del SDK de Android
+local.properties
+
+# ------------------------------------------
+# ANDROID STUDIO / INTELLIJ
+# ------------------------------------------
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries/
+.idea/libraries/
+.idea/caches/
+.idea/modules.xml
+.idea/navEditor.xml
+*.iml
+
+# ------------------------------------------
+# CLAVES Y FIRMAS PRIVADAS
+# ------------------------------------------
+*.jks
+*.keystore
+
+# ------------------------------------------
+# COMPILACION NATIVA ANDROID
+# ------------------------------------------
+.externalNativeBuild/
+.cxx/
+
+# ------------------------------------------
+# LOGS Y ARCHIVOS TEMPORALES
+# ------------------------------------------
+*.log
+*.hprof
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# ------------------------------------------
+# ANDROID LINT Y PERFILADO
+# ------------------------------------------
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# ------------------------------------------
+# ANDROID NAVIGATION Y CAPTURAS
+# ------------------------------------------
+.navigation/
+captures/
+
+# ------------------------------------------
+# FASTLANE
+# ------------------------------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# ------------------------------------------
+# PYTHON
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Distribuciones y paquetes generados
+build/python/
+dist/
+wheels/
+*.egg-info/
+
+# Herramientas de pruebas y analisis
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ------------------------------------------
+# STREAMLIT
+# ------------------------------------------
+.streamlit/secrets.toml
+
+# ------------------------------------------
+# VARIABLES DE ENTORNO Y CREDENCIALES
+# ------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------
+# EDITORES Y SISTEMA OPERATIVO
+# ------------------------------------------
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------
+# CORDOVA / CAPACITOR
+# ------------------------------------------
+# No ignorar los archivos fuente web ni la configuracion
+# generada que sea necesaria para reconstruir la aplicacion.
+
+# ------------------------------------------
+# ARCHIVOS DEL PROYECTO QUE DEBEN CONSERVARSE
+# ------------------------------------------
+# No ignorar:
+# index.html
+# styles.css
+# archivos JavaScript
+# archivos Java
+# archivos Python
+# app.py
+# requirements.txt
+# model.json
+# umbrales_app.json
+# gradlew
+# gradlew.bat
+# gradle/wrapper/
+# build.gradle
+# settings.gradle
+# capacitor.config.*

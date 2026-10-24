@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Madurez de papaya</string>
+    <string name="title_activity_main">Madurez de papaya</string>
+    <string name="package_name">com.tesis.papayamadurez</string>
+    <string name="custom_url_scheme">com.tesis.papayamadurez</string>
+</resources>
